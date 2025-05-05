@@ -31,14 +31,22 @@ This project is an AI-powered **drowsiness and yawn detection system** designed 
 
 ### 📁 Project Structure
 
+``` bash
 Drowsiness-Yawn-Detection/
 │
-├── shape_predictor_68_face_landmarks.dat
-├── detect_drowsiness.py    # Main script
-├── alarm.wav               # Audio alert file
-├── README.md               # Project documentation
-└── requirements.txt        # Dependencies
+├── models/
+│   └── shape_predictor_68_face_landmarks.dat     # Dlib facial landmarks model
+│
+├── music.wav                                     # Audio file for voice alert
+│
+├── detect_drowsiness.py                          # Main Python script
+│
+├── requirements.txt                              # Python dependencies
+│
+├── README.md                                     # Project documentation
+│
 ```
+
 
 ---
 
@@ -75,6 +83,7 @@ python detect_drowsiness.py
 ---
 
 
+
 ### 📚 References
 
 * Tereza Soukupová and Jan Čech – Real-Time Eye Aspect Ratio Calculation
@@ -87,5 +96,6 @@ python detect_drowsiness.py
 
 Feel free to fork this project and submit pull requests. Contributions and improvements are welcome!
 
+---
 
 
