@@ -31,10 +31,8 @@ This project is an AI-powered **drowsiness and yawn detection system** designed 
 
 ### 📁 Project Structure
 
-```bash
 Drowsiness-Yawn-Detection/
 │
-├── dataset/                # (Optional) Training data, if used
 ├── shape_predictor_68_face_landmarks.dat
 ├── detect_drowsiness.py    # Main script
 ├── alarm.wav               # Audio alert file
@@ -89,5 +87,5 @@ python detect_drowsiness.py
 
 Feel free to fork this project and submit pull requests. Contributions and improvements are welcome!
 
----
+
 
